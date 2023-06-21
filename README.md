@@ -3,6 +3,7 @@
 ## 开发环境：
 SpringBoot，MyBatis，MySQL，Redis，Lombok，Hutool
 ## 技术要点：
+
 1.使用 Redis 的 Hash 存储登录的用户信息，解决 Session 共享问题
 2.使用 Redis 缓存热点数据，缓解数据库读写压力，同时解决缓存击穿、缓存雪崩和缓存穿透等问题
 3.采用全局唯一 ID 解决库存超卖问题并实现优惠券秒杀，并利用 Redission 实现分布式锁
